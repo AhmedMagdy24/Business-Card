@@ -1,0 +1,134 @@
+body {
+  background: #1A1B21;
+  padding: 0;
+  margin: 0;
+}
+
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 95%;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 36vh;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.text-color {
+  color: #F3BF99;
+  margin: 0;
+  font-weight: 300;
+}
+
+.my-name {
+  margin: 0;
+}
+
+header > p {
+  margin: 10px;
+  font-size: 12px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none; 
+  margin-bottom: 30px;
+
+}
+
+.email {
+  background: #ffffff;
+  color: black;
+}
+
+.email:hover {
+  background: #F3BF99;
+  color: black;
+}
+
+.linkedin{
+  margin-left: 20px;
+  background: #5093E2;
+  color: #fff;
+}
+
+.linkedin:hover {
+  background: #F3BF99;
+  color: black;
+}
+
+.button-icons {
+  margin-right: 15px;
+}
+
+.main-content {
+  width: 72%;
+  margin-bottom: 40px;
+}
+
+.main-content > h2 {
+  text-align: left;
+  font-weight: 700;
+  margin: 0;
+}
+
+.main-content > P {
+  color: #DCDCDC;
+  font-weight: 400;
+  text-align: left;
+}
+
+.footer-content {
+  background: #161619;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.footer-content button {
+  font-size: 2.5rem;
+  border: none;
+  margin-right: 10px;
+  background: #161619;
+  align-self: center;
+}
+
+.facebook:hover {
+  color: #4267B2;
+}
+
+.twitter:hover{
+  color: #1DA1F2;
+}
+
+.github:hover{
+  color: gray;
+}
+.insta:hover{
+  color: brown;
+  
+}
+
+
+
+
